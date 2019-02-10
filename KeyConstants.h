@@ -6,17 +6,15 @@
 
 class KeyPair
 {
-public:
-    KeyPair(const std:: string  &vk = "" const std::string &name = "") VKName (vk),
-                                                                       Name (name)
-                                                                       {}
+    public:
+    KeyPair(const std:: string  &vk = "", const std::string &name = ""): VKName (vk), Name (name){}
           std::string VKName;
-          std::string Name;                                                                                                                                    }
+          std::string Name;
 };
 
 class Keys
 {
-public:
+    public:
     static std::map<int, KeyPair> KEYS;
 };
 

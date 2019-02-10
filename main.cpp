@@ -1,5 +1,8 @@
 #include <iostream>
 #include <windows.h>
+#include "Base64.h"
+#include "Helper.h"
+#include "KeyConstants.h"
 
 using namespace std;
 
