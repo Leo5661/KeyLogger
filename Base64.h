@@ -27,7 +27,7 @@ namespace Base64
         return s;
     }
 
-    const std::string &BASE64_CODES = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqustuvwxyz0123456789+/";
+    const std::string &BASE64_CODES = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 
     std::string base64_encode(const std::string &s)
     {
