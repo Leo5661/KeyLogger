@@ -38,7 +38,7 @@ namespace Base64
 
         for(const auto &c : s)
         {
-            val  =(val << 8) + c;
+            val = (val << 8) + c;
             bits += 8;
             while(bits >= 0)
             {
